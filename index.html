@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebook – log in or sign up</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: #f2f4f7;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+    }
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1000px;
+      width: 100%;
+    }
+
+    .left {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .left h1 {
+      color: #1877f2;
+      font-size: 56px;
+    }
+
+    .left p {
+      font-size: 24px;
+      margin-top: -10px;
+    }
+
+    .right {
+      width: 400px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .right input {
+      width: 100%;
+      padding: 14px;
+      margin: 10px 0;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+    }
+
+    .right button {
+      width: 100%;
+      background: #1877f2;
+      color: white;
+      font-size: 18px;
+      padding: 14px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .right button:hover {
+      background: #155ec5;
+    }
+
+    .right a {
+      display: block;
+      text-align: center;
+      margin: 12px 0;
+      text-decoration: none;
+      color: #1877f2;
+      font-size: 14px;
+    }
+
+    .line {
+      border-top: 1px solid #ccc;
+      margin: 20px 0;
+    }
+
+    .create-btn {
+      background-color: #42b72a;
+      font-weight: bold;
+    }
+
+    .create-btn:hover {
+      background-color: #36a420;
+    }
+
+    @media (max-width: 768px) {
+      .content {
+        flex-direction: column;
+        align-items: center;
+      }
+      .left {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="content">
+      <div class="left">
+        <h1>facebook</h1>
+        <p>Connect with friends and the world around you on Facebook.</p>
+      </div>
+      <div class="right">
+        <input type="text" placeholder="Email or Phone number" />
+        <input type="password" placeholder="Password" />
+        <button>Log In</button>
+        <a href="#">Forgotten password?</a>
+        <div class="line"></div>
+        <button class="create-btn">Create New Account</button>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
