@@ -4,7 +4,7 @@ A simple and responsive clone of the Facebook login page built using **HTML** an
 
 ## 📸 Preview
 
-![Preview](screenshot.png) <!-- Replace with your actual screenshot file -->
+![Preview](1.png) <!-- Replace with your actual screenshot file -->
 
 ## ✨ Features
 
